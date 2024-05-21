@@ -1,0 +1,88 @@
+body{background-image: url('https://revistacampoenegocios.com.br/wp-content/uploads/2020/10/plantacao-soja-Solucoes-para-manejo-seguro-de-plantas-daninhas-na-cultura-da-soja-foto-divulgacao-scaled-1.jpg');
+        background-size: cover;
+        font-family: 'Courier New', Courier, monospace;
+        align-items: center;
+}
+
+h1 {  align-items: center;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
+}
+
+#cabecario{
+    display: flex;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #787676;
+    border-radius: 15px;
+    align-items: center;
+}
+
+form label,
+form input[type="text"],
+form input[type="number"],
+form input[type="radio"] {
+    width: 90%;
+    margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    padding: 5px;
+    border: 1px solid #787676;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(70, 70, 70, 0.5)
+
+}
+
+form input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+form h2 {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    text-align: left;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+form div.radio-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+form button {
+    background-color: #316933; 
+    color: white; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    width: 50%; 
+    box-sizing: border-box;
+}
+
+form button:hover {
+    background-color: #45a049; 
+}
